@@ -11,17 +11,17 @@
         android:layout_height="40dp"
         android:layout_alignParentRight="true"
         android:background="#FF0000"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp"
         android:gravity="center"
-        android:text="0" />
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
 
-    <!--<android.support.v7.widget.RecyclerView-->
-        <!--android:id="@+id/recycler"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_above="@+id/layout"-->
-        <!--android:layout_alignParentTop="true" />-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layout"
+        android:layout_alignParentTop="true" />
 
     <LinearLayout
         android:id="@+id/layout"
@@ -41,7 +41,8 @@
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:text="SEND" />
     </LinearLayout>
 
 </RelativeLayout>
